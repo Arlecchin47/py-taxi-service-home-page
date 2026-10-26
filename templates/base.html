@@ -5,20 +5,20 @@
   <meta charset="UTF-8">
   <title>{% block title %}Taxi Service{% endblock %}</title>
 
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 
 <body>
-  <div>
+<div>
   {% block sidebar %}
     {% include "includes/sidebar.html" %}
   {% endblock %}
-  </div>
+</div>
 
-  <div>
+<div>
   {% block content %}
   {% endblock %}
-  </div>
+</div>
 
 </body>
 </html>
